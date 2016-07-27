@@ -1,0 +1,3 @@
+library(igraph)
+g <- graph.tree(25, 2)
+plot(g, layout = layout.reingold.tilford(g, root=1))
